@@ -1,5 +1,7 @@
 # Team-Fortress-2
 
+[![J](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/IndieKA/Team-Fortress-2/blob/master/LICENSE?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Join the chat at https://gitter.im/IndieKA/Team-Fortress-2](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/IndieKA/Team-Fortress-2?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <img src = "https://images-na.ssl-images-amazon.com/images/G/01/videogames/detail-page/tf2_1_lg.jpg" width="700" height="400"/>
