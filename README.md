@@ -44,7 +44,7 @@ Team Fortress 2 features nine different characters categorized into offense, def
 (information from _Wikipedia_ [Team Fortress 2])
 
 **Offense:** 
-* **The Scout:** is baseball fan and street runner from Boston, Massachusetts, who practiced running to "beat his maddog siblings to the fray.". He is a fast, agile character, armed with a scattergun, a pistol and an aluminum baseball bat. The Scout can double-jump and captures control points and pushes payloads twice as fast as other classes, but has the lowest health.
+* **The Scout:** is a baseball fan and street runner. He is a fast, agile character, armed with a scattergun, a pistol and an aluminum baseball bat. The Scout can double-jump and captures control points and pushes payloads twice as fast as other classes, but has the lowest health.
 * **The Soldier:**  is more durable, but slower. The Soldier is armed with a rocket launcher, shotgun, and a folding shovel. The Soldier can use his rocket launcher to rocket jump to higher positions at the cost of some health.
 * **The Pyro:** is a mentally unstable maniac of unknown gender who is armed with a with a flamethrower, fire axe, and a shotgun. 
 
