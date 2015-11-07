@@ -62,7 +62,7 @@ Yes, there is a guideline for contributing to this repository. Please read it ov
 **IMPORTANT**: Before contributing to this repository, read the following BEFORE the margin.
 "You" or "Your" (group) shall accept the following terms and conditions for your contributions to this project. You(r) name will be Featured on the Credits list, with a link attached to your GitHub profile, and/or Khan Academy/Travis/any other collaborating site. By accepting this passage you agree to having the GitHub user @IndieKA sponsoring you and your contributions.
 
-Contribution in this group shall mean work that is original. Please provide the source name (if) needed, including minor modifications and add-ons, and credit your origins wisely. You are contributing on behalf the following project WILL and most possibly USE your provided code. (WE) the users (WILL) use your code on note that we may add improvement/changes to the syntax. IF you are not satisfied WITH what we have done w/your code, you have all means to revoke your code request and leave the collaboration. YOUR code MUST be of Khan Academy's JavaScript or normal JavaScript, otherwise WE have all rights to reject your pull request. You do Agree, on all circumstances, to notify the GMod project WHEN you have made a modification to your code 
+Contribution in this group shall mean work that is original. Please provide the source name (if) needed, including minor modifications and add-ons, and credit your origins wisely. You are contributing on behalf the following project WILL and most possibly USE your provided code. (WE) the users (WILL) use your code on note that we may add improvement/changes to the syntax. IF you are not satisfied WITH what we have done w/your code, you have all means to revoke your code request and leave the collaboration. YOUR code MUST be of Khan Academy's JavaScript or normal JavaScript, otherwise WE have all rights to reject your pull request. You do Agree, on all circumstances, to notify the Team Fortress 2 project WHEN you have made a modification to your code.
 
 Subject to this agreement, you AGREE to not abuse or in any way, DISCRIMINATE against another user who has followed the Agreement listed. Rude or argumentative behavior WILL NOT be tolerated, and creators/contributors WILL be banned from further contributions. IF we find YOUR code is not original, there is a possibility you can be KICKED from the repository. The license(s) provided by MIT and GitHub to user @IndieKA are of his and theirs copyright, giving each right to grant and authorize any system to any user who agrees this copyright. You represent, your(self), that your creation is YOUR OWN. You provide Your Contributions to This Group on Agreement it MAY be used by a third party group IN THE CONCLUSION they WILL give proper credit to not only you BUT the Following Group.
 
@@ -109,7 +109,7 @@ Please inform us in our Gitter chat where you are going to add your code. (https
 ## Credits
 * License: MIT (see LICENSE file)
 * Original Author (Yokuda) 
-* Repository: https://github.com/IndieKA/KAGMOD (created by IndieKA for Yokuda)
+* Repository: https://github.com/IndieKA/Team-Fortress-2 (created by IndieKA for Yokuda)
 * Original program: https://www.khanacademy.org/cs/-/6360667559428096
 
 ### Copyright and license
