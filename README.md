@@ -15,6 +15,7 @@ I (IndieKA) am creating a replica of Team Fortress 2 on Khan Academy, the same s
 - 
 Yokuda:
 * https://github.com/IndieKA (shares brother's account)
+
 IndieKA
 * https://github.com/IndieKA (shares w/brother)
 
