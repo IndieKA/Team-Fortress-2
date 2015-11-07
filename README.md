@@ -54,3 +54,21 @@ Team Fortress 2 features nine different characters categorized into offense, def
 * **The Sniper:** is of course, a sniper armed with a kukri (for close combat) and a long range sniper for helping take out enemies. Players usually find other snipers on towers and high positions. 
 * **The Spy:** is an agent with tools like a "butterfly" knife and a device used to sabotage Engineer's buildings. His "butterfly" knife can take out any character (only if it is a backstab)
 
+## Contributing
+Yes, there is a guideline for contributing to this repository. Please read it over before you solve any issues/errors with the global program. Don't forget to either check out the LICENSE to see where it is licensed from, or see Yokuda's profile for proof work on the contributions. (http://www.khanacademy.org/profile/Yokuda)
+
+### Helpful contributions
+---
+**IMPORTANT**: Before contributing to this repository, read the following BEFORE the margin.
+"You" or "Your" (group) shall accept the following terms and conditions for your contributions to this project. You(r) name will be Featured on the Credits list, with a link attached to your GitHub profile, and/or Khan Academy/Travis/any other collaborating site. By accepting this passage you agree to having the GitHub user @IndieKA sponsoring you and your contributions.
+
+Contribution in this group shall mean work that is original. Please provide the source name (if) needed, including minor modifications and add-ons, and credit your origins wisely. You are contributing on behalf the following project WILL and most possibly USE your provided code. (WE) the users (WILL) use your code on note that we may add improvement/changes to the syntax. IF you are not satisfied WITH what we have done w/your code, you have all means to revoke your code request and leave the collaboration. YOUR code MUST be of Khan Academy's JavaScript or normal JavaScript, otherwise WE have all rights to reject your pull request. You do Agree, on all circumstances, to notify the GMod project WHEN you have made a modification to your code 
+
+Subject to this agreement, you AGREE to not abuse or in any way, DISCRIMINATE against another user who has followed the Agreement listed. Rude or argumentative behavior WILL NOT be tolerated, and creators/contributors WILL be banned from further contributions. IF we find YOUR code is not original, there is a possibility you can be KICKED from the repository. The license(s) provided by MIT and GitHub to user @IndieKA are of his and theirs copyright, giving each right to grant and authorize any system to any user who agrees this copyright. You represent, your(self), that your creation is YOUR OWN. You provide Your Contributions to This Group on Agreement it MAY be used by a third party group IN THE CONCLUSION they WILL give proper credit to not only you BUT the Following Group.
+
+REMEMBER that YOUR CODE can be sold, imported, and transfered to another company/organization ON BEHALF they will give credit to US AS WELL (and you). You CANNOT do anything AFTER a PIECE has been sold rather than US give the link to the other franchise/company/organization. 
+
+IF you FAIL to meet the needs of (this) repository you MAY be kicked, or banned, from the following REPOSITORY, and may never be able to contribute again. YOU ARE BEING WATCHED. 
+
+Thank you for taking the time to read this Agreement. Copyright @ IndieKA 2015, Written by @IndieKA and @Yokuda. This Agreement was Written by @Yokuda and @IndieKA.
+
