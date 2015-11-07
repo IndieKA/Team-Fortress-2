@@ -72,3 +72,46 @@ IF you FAIL to meet the needs of (this) repository you MAY be kicked, or banned,
 
 Thank you for taking the time to read this Agreement. Copyright @ IndieKA 2015, Written by @IndieKA and @Yokuda. This Agreement was Written by @Yokuda and @IndieKA.
 
+### Syntax & Code
+
+If you would like to contribute, instead of pointing out simple mistakes you can either try to do the following:
+* **Try to fix bugs**: Just above this mini section is a small, yet reasonable list of bugs in the program. See if you can try to fix them! Report to @Yokuda or @Indie on Khan Academy if you have done so, and include the code w/it in case it is fixing a long part of the script.
+* **Report any disruptive behavior or any problems with the interface**: Although these might not be _so_ important, they can lead to later problems regarding users/code. 
+
+### Code Style
+* -  No line indentations.
+* -  Clean code (w/spaces between commas and indented code when needed) [IF you cannot clean your code well use http://jsbeautifier.org)
+* -  camelCase with variables.
+* -  80 character line length. Then you must indent.
+* -  New changes cannot extend the original more than 700 lines of code (unless it is something VERY important)
+In general, try to make your syntax blend in w/the actual code. 
+
+### Pull Requests
+* Link to the original w/the new added code/syntax.
+* Before merging state changes
+* Large pull requests should be separated into new folders
+
+### Screenshotting
+Before we add a user's change, we require a screenshot of what they have done. IF YOU ARE UNABLE to provide us w/that, your changes MAY NOT be accepted! Please, if you suggest a big change in the code, include a screenshot showing what you are going to change. Most screenshots will be taken on Khan Academy.
+
+How our screenshot system works:
+- Only focus on editor/picture
+- Do not display any other tabs (or put your screen onto Fullscreen mode)
+- If there are no visible changes, WE MAY possibly accept it, considering it might just be a minor bug fix or so.
+
+### CODE ADDING
+The most important out of all of them. In fact, this really should go first... 
+
+Most of our basic things are handled in the "`setup`" folder, where all the details and components of the game last. If you try to merge your new code INTO another folder besides `setup`, YOU MUST have it to do w/something else rather than the actual `setup`. 
+
+Please inform us in our Gitter chat where you are going to add your code. (https://gitter.im/IndieKA/Team-Fortress-2)
+
+## Credits
+* License: MIT (see LICENSE file)
+* Original Author (Yokuda) 
+* Repository: https://github.com/IndieKA/KAGMOD (created by IndieKA for Yokuda)
+* Original program: https://www.khanacademy.org/cs/-/6360667559428096
+
+### Copyright and license
+
+Code and documentation created by IndieKA and Yokuda. Code released under the [MIT License] (https://github.com/twbs/bootstrap/blob/master/LICENSE). All rights reserved.
