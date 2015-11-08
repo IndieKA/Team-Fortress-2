@@ -72,7 +72,7 @@ REMEMBER that YOUR CODE can be sold, imported, and transfered to another company
 
 IF you FAIL to meet the needs of (this) repository you MAY be kicked, or banned, from the following REPOSITORY, and may never be able to contribute again. YOU ARE BEING WATCHED. 
 
-Thank you for taking the time to read this Agreement. Copyright @ IndieKA 2015, Written by @IndieKA and @Yokuda. This Agreement was Written by @Yokuda and @IndieKA.
+Thank you for taking the time to read this Agreement. Copyright @ IndieKA 2015 (this is not for use in any of your Repos)
 
 ### Syntax & Code
 
