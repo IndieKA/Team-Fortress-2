@@ -56,6 +56,33 @@ Team Fortress 2 features nine different characters categorized into offense, def
 * **The Sniper:** is of course, a sniper armed with a kukri (for close combat) and a long range sniper for helping take out enemies. Players usually find other snipers on towers and high positions. 
 * **The Spy:** is an agent with tools like a "butterfly" knife and a device used to sabotage Engineer's buildings. His "butterfly" knife can take out any character (only if it is a backstab)
 
+## How does KAPJS work?
+You may know what ProcessingJS and how it works (processingjs.org), but Khan Academy's version of PJS is rather different. Observe:
+**Normal PJS Code:**
+```
+void setup(){
+  size(200, 200);
+  frameRate(10);
+}
+
+void draw(){
+  background(#ffffff);
+  ellipse(100, 100, random(50), random(50);
+}
+```
+
+**Khan Academy's PJS Code:**
+```
+draw = function(){
+  size(200, 200);
+  frameRate(10);
+  background(255, 255, 255);
+  ellipse(100, 100, random(50), random(50);
+};
+```
+
+Notice how there is minor changes like `void draw()` would be `draw = function()` and the `background` system in Khan Academy uses the RGB filter. Their system was mainly designed like this for beginner programmers under the age of 13, (even though Yokuda and I are over 13) we will still be developing Team Fortress 2 on Khan Academy.
+
 ## Contributing
 Yes, there is a guideline for contributing to this repository. Please read it over before you solve any issues/errors with the global program. Don't forget to either check out the LICENSE to see where it is licensed from, or see Yokuda's profile for proof work on the contributions. (http://www.khanacademy.org/profile/Yokuda)
 
@@ -104,7 +131,7 @@ How our screenshot system works:
 ### CODE ADDING
 The most important out of all of them. In fact, this really should go first... 
 
-Most of our basic things are handled in the "`setup`" folder, where all the details and components of the game last. If you try to merge your new code INTO another folder besides `setup`, YOU MUST have it to do w/something else rather than the actual `setup`. 
+Most of our basic things are handled in the "`basics`" folder, where all the details and components of the game last. If you try to merge your new code INTO another folder besides `basics`, YOU MUST have it to do w/something else rather than the actual `basics`. 
 
 Please inform us in our Gitter chat where you are going to add your code. (https://gitter.im/IndieKA/Team-Fortress-2)
 
