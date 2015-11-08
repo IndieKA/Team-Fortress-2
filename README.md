@@ -86,6 +86,8 @@ Notice how there is minor changes like `void draw()` would be `draw = function()
 ## Contributing
 Yes, there is a guideline for contributing to this repository. Please read it over before you solve any issues/errors with the global program. Don't forget to either check out the LICENSE to see where it is licensed from, or see Yokuda's profile for proof work on the contributions. (http://www.khanacademy.org/profile/Yokuda)
 
+THIS COPYRIGHT LICENSE was written all by me and Yokuda. PLEASE DO NOT take this into your repositories, even with credit. It is something that took us a while to type up, and this part of the README.md is not open-source. 
+
 ### Helpful contributions
 ---
 **IMPORTANT**: Before contributing to this repository, read the following BEFORE the margin.
