@@ -1,0 +1,176 @@
+
+/************************************************
+ * Team Fortress 2: KA Version
+ * Created by Yokuda and Indie on Novemeber 7th, 2015.
+ * @GitHub repository: https://github.com/IndieKA/Team-Fortress-2/
+ * 
+Team Fortress 2 is a team based FPS game created by Valve Corporation and downloadable on the Steam website (https://store.steampowered.com/apps/440). It is the continuation of Team Fortress, an original FPS from 1996. The game has gotten more than 300,000 ratings on Steam itself and was rated 4.5/ out of 5 from Metacritic. It still continues to be a great multiplayer game today.
+ * 
+I (Yokuda), with Indie, will be creating a replica of Team Fortress 2 on Khan Academy. The project is estimated to be done by July 2016 with at least 80% of everything in the game installed, and we will mainly be making our changes on our @GitHub organization. Please, take some time to check out the @GitHub link posted right about the first paragraph. Our version of Team Fortress 2 will have all the popular packages like the Valve Complete Pack and the Orange Box. 
+ * 
+@about - So what is Team Fortress 2 really about? Like I stated, it's a team based first person shooter, but with nine distinct classes, like the "Scout" or the "Medic", for example. They've all got different personalities, and the game has multiple gamemodes and maps, along with equipment for your character to get. If you would like to get more information on the characters, you might want to go here: [the following video showcases the many characteristics of each person, and how they effect each team. https://www.youtube.com/watch?v=l62OY19rZ7k
+
+@credits -
+- @Splo for the text border in homeScreen ("TEAM FORTRESS 2")
+- @IndieKA for the background in homeScreen (The Matrix homescreen)
+- @GoldenApple for the gun in homeScreen (player)
+
+***************************************************/
+/** --- Version: --- **/
+var version = "NaN";
+
+/***
+ * Button Function by Yokuda
+ * Variables:
+ * - overButtonF: To track if the user hovers over the button.
+ * - page: To see what page the user is on, and when he/she clicks on a button, they go to a new page.
+ * - buttonFPressed: To track if the user clicks the button.
+ * 
+ ***/
+
+var overbuttonF,
+    page = "Menu",
+    buttonFPressed = false,
+    buttonF = function(x, y, w, h, r, ts, t, displayed) {
+        overbuttonF = false;
+        noStroke();
+        rectMode(CENTER);
+        fill((mouseX < x + w / 2 && mouseX > x - w / 2 && mouseY < y + h / 2 && mouseY > y - h / 2) ? cursor(HAND) || 255 : color(255, 0));
+        rect(x, y, w, h, r);
+        fill(255, 255, 255);
+        textAlign(CENTER, CENTER);
+        textFont(createFont("Tahoma"));
+        textSize(ts);
+        text(t, x, y);
+        if (mouseX < x + w / 2 && mouseX > x - w / 2 && mouseY < y + h / 2 && mouseY > y - h / 2) {
+            fill(255, 255, 255);
+            textAlign(BASELINE, BASELINE);
+            textSize(20);
+            text(displayed, 10, 20, 390, 400);
+            overbuttonF = true;
+        }
+
+    };
+
+var barr = -50;
+var homeScreen = function() {
+    background(66, 66, 66);
+    rectMode(LEFT);
+    for (var d = 0; d <= 2000; d++) {
+        noStroke();
+        fill(d, d, d, random(10, 20));
+        rect(random(-30, 430), random(-30, 430), random(10, 30), 3);
+    }
+
+    fill(255, 255, 255, 150);
+    rect(0, barr, 400, 50);
+    barr += random(2, 2);
+    if (barr >= 400) {
+        barr = -50;
+    }
+
+    var textInput = ["TEAM FORTRESS 2", 144, 31, 30, 2];
+    fill(186, 87, 0);
+    textAlign(CENTER, CENTER);
+    textFont(createFont("Roboto"));
+    textSize(textInput[3]);
+    text(textInput[0], textInput[1] + textInput[4] * sin(5), textInput[2] + textInput[4] * cos(5));
+    fill(255, 255, 255);
+    text(textInput[0], textInput[1], textInput[2]);
+    pushMatrix();
+    fill(0, 0, 0);
+    rotate(10);
+    rect(88, 18, 10, 2);
+    rect(111, 18, 10, 2);
+    rect(103, 2, 2, 10);
+    rect(103, 26, 2, 10);
+    fill(255, 0, 0);
+    noStroke();
+    ellipse(103, 20, 7, 7);
+    popMatrix();
+
+};
+
+/** ------ draw(main, build) --- **/
+/** --- 
+Define in draw:
+ * homeScreen
+ * gameStates
+ * play
+--- **/
+draw = function(gameStates, play) {
+    cursor(ARROW);
+    if (page === "Menu") {
+        background(255, 255, 255);
+        homeScreen();
+
+        fill(255, 255, 255);
+        rect(11, 56, 313, 2);
+
+        buttonF(76, 84, 179, 32, 5, 20, "MULTIPLAYER", "");
+        if (overbuttonF && mouseIsPressed) {
+            page = "startNew";
+        }
+
+        buttonF(52, 112, 179, 32, 5, 20, "Training", "");
+        if (overbuttonF && mouseIsPressed) {
+            page = "training";
+        }
+
+        buttonF(39, 141, 179, 32, 5, 20, "Shop", "");
+        if (overbuttonF && mouseIsPressed) {
+            page = "shoppe";
+        }
+
+        rectMode(LEFT);
+
+        pushMatrix();
+        rotate(-10);
+        translate(206, 109);
+        noStroke();
+        fill(64, 64, 64);
+        rect(-19, 196, 130, 8);
+        rect(95, 195, 27, 10);
+        rect(-19, 209, 130, 8);
+        rect(33, 192, 5, 3);
+        fill(54, 54, 54);
+        rect(58, 207, 1, 12);
+        rect(57, 208, 4, 10);
+        rect(52, 208, 4, 10);
+        rect(46, 208, 4, 10);
+        rect(40, 208, 4, 10);
+        fill(18, 18, 18);
+        ellipse(108, 195, 13, 1);
+        ellipse(108, 198, 13, 1);
+        ellipse(108, 201, 13, 1);
+        ellipse(108, 204, 13, 1);
+        fill(97, 97, 97);
+        rect(-20, 194, 60, 21);
+        fill(0, 0, 0);
+        ellipse(30, 197, 10, 2);
+        ellipse(18, 197, 10, 2);
+        ellipse(6, 197, 10, 2);
+        strokeWeight(1);
+        stroke(94, 94, 94);
+        line(19, 203, 19, 217);
+        line(15, 203, 15, 217);
+        line(11, 203, 11, 217);
+        line(7, 203, 7, 217);
+        line(3, 203, 3, 217);
+        popMatrix();
+        noStroke();
+
+
+        pushMatrix();
+        fill(0);
+        translate(291, 100);
+        rotate(12);
+        rect(-18, 109, 40, 40);
+        popMatrix();
+
+        rect(243, 249, 40, 66);
+
+
+    }
+
+};
