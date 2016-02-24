@@ -7,11 +7,11 @@ www.teamfortress.com
 
 Team Fortress 2 is a team based FPS game created by Valve Corporation and downloadable on [Steam] (https://store.steampowered.com/apps/440). It is the continuation of Team Fortress, an original FPS from 1996. The game has gotten more than 300,000 ratings on Steam itself and was rated 4.5/5 from Metacritic. It still continues to be a great multiplayer game today.
 
-I (IndieKA) am creating a replica of Team Fortress 2 on Khan Academy, the same site in which I will be creating my Garry's Mod KA Project w/Yokuda. Want to check it out? Go to this link: https://www.khanacademy.org/computer-programming/team-fortress-2/6360667559428096. This is an open source project, so feedback and helpful discussion is always welcome. If you would love to contribute, head over to the Contributing section.
+I (IndieKA) am creating a replica of Team Fortress 2 on Khan Academy, the same site in which I will be creating my Garry's Mod KA Project w/Fenrier. Want to check it out? Go to this link: https://www.khanacademy.org/computer-programming/team-fortress-2/6360667559428096. This is an open source project, so feedback and helpful discussion is always welcome. If you would love to contribute, head over to the Contributing section.
 
 **Creators**:
 - 
-Yokuda:
+Fenrier:
 * https://github.com/IndieKA (shares brother's account)
 
 IndieKA
@@ -81,12 +81,12 @@ draw = function(){
 };
 ```
 
-Notice how there is minor changes like `void draw()` would be `draw = function()` and the `background` system in Khan Academy uses the RGB filter. Their system was mainly designed like this for beginner programmers under the age of 13, (even though Yokuda and I are over 13) we will still be developing Team Fortress 2 on Khan Academy.
+Notice how there is minor changes like `void draw()` would be `draw = function()` and the `background` system in Khan Academy uses the RGB filter. Their system was mainly designed like this for beginner programmers under the age of 13, (even though Fenrier and I are over 13) we will still be developing Team Fortress 2 on Khan Academy.
 
 ## Contributing
-Yes, there is a guideline for contributing to this repository. Please read it over before you solve any issues/errors with the global program. Don't forget to either check out the LICENSE to see where it is licensed from, or see Yokuda's profile for proof work on the contributions. (http://www.khanacademy.org/profile/Yokuda)
+Yes, there is a guideline for contributing to this repository. Please read it over before you solve any issues/errors with the global program. Don't forget to either check out the LICENSE to see where it is licensed from, or see Fenrier's profile for proof work on the contributions. (http://www.khanacademy.org/profile/Fenrier)
 
-THIS COPYRIGHT LICENSE was written all by me and Yokuda. PLEASE DO NOT take this into your repositories, even with credit. It is something that took us a while to type up, and this part of the README.md is not open-source. 
+THIS COPYRIGHT LICENSE was written all by me and Fenrier. PLEASE DO NOT take this into your repositories, even with credit. It is something that took us a while to type up, and this part of the README.md is not open-source. 
 
 ### Helpful contributions
 ---
@@ -106,7 +106,7 @@ Thank you for taking the time to read this Agreement. Copyright @ IndieKA 2015 (
 ### Syntax & Code
 
 If you would like to contribute, instead of pointing out simple mistakes you can either try to do the following:
-* **Try to fix bugs**: Just above this mini section is a small, yet reasonable list of bugs in the program. See if you can try to fix them! Report to @Yokuda or @Indie on Khan Academy if you have done so, and include the code w/it in case it is fixing a long part of the script.
+* **Try to fix bugs**: Just above this mini section is a small, yet reasonable list of bugs in the program. See if you can try to fix them! Report to @Fenrier or @Indie on Khan Academy if you have done so, and include the code w/it in case it is fixing a long part of the script.
 * **Report any disruptive behavior or any problems with the interface**: Although these might not be _so_ important, they can lead to later problems regarding users/code. 
 
 ### Code Style
@@ -139,10 +139,10 @@ Please inform us in our Gitter chat where you are going to add your code. (https
 
 ## Credits
 * License: MIT (see LICENSE file)
-* Original Author (Yokuda) 
-* Repository: https://github.com/IndieKA/Team-Fortress-2 (created by IndieKA for Yokuda)
+* Original Author (Fenrier) 
+* Repository: https://github.com/IndieKA/Team-Fortress-2 (created by IndieKA for Fenrier)
 * Original program: https://www.khanacademy.org/cs/-/6360667559428096
 
 ### Copyright and license
 
-Code and documentation created by IndieKA and Yokuda. Code released under the [MIT License] (https://github.com/twbs/bootstrap/blob/master/LICENSE). All rights reserved.
+Code and documentation created by IndieKA and Fenrier. Code released under the [MIT License] (https://github.com/twbs/bootstrap/blob/master/LICENSE). All rights reserved.
