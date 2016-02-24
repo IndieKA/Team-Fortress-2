@@ -1,11 +1,11 @@
 /************************************************
  * Team Fortress 2: KA Version
- * Created by Yokuda and Indie on Novemeber 7th, 2015.
+ * Created by Fenrier and Indie on Novemeber 7th, 2015.
  * @GitHub repository: https://github.com/IndieKA/Team-Fortress-2/
  *  
- * Team Fortress 2 is a team based FPS game created by Valve Corporation and downloadable on the Steam website (https://store.steampowered.com/apps/440). It is the continuation of Team Fortress, an original FPS from 1996. The game has gotten more than 300,000 ratings on Steam itself and was rated 4.5/ out of 5 from Metacritic. It still continues to be a great multiplayer game today.
+ * Team Fortress 2 is a team based FPS game created by Valve Corporation and downloadable on the Steam website (https://store.steampowered.com/apps/440). It is the continuation of Team Fortress, an original FPS from 1996. The game has gotten more than 300,000 ratings on Steam itself and was rated 4.5 out of 5 from Metacritic. It still continues to be a great multiplayer game today.
  * 
- * I (Yokuda), with Indie, will be creating a replica of Team Fortress 2 on Khan Academy. The project is estimated to be done by July 2016 with at least 80% of everything in the game installed, and we will mainly be making our changes on our @GitHub organization. Please, take some time to check out the @GitHub link posted right about the first paragraph. Our version of Team Fortress 2 will have all the popular packages like the Valve Complete Pack and the Orange Box. 
+ * I (Fenrier), with Indie, will be creating a replica of Team Fortress 2 on Khan Academy. The project is estimated to be done by July 2016 with at least 80% of everything in the game installed, and we will mainly be making our changes on our @GitHub organization. Please, take some time to check out the @GitHub link posted right about the first paragraph. Our version of Team Fortress 2 will have all the popular packages like the Valve Complete Pack and the Orange Box. 
  * 
  * @about - So what is Team Fortress 2 really about? Like I stated, it's a team based first person shooter, but with nine distinct classes, like the "Scout" or the "Medic", for example. They've all got different personalities, and the game has multiple gamemodes and maps, along with equipment for your character to get. If you would like to get more information on the characters, you might want to go here: [the following video showcases the many characteristics of each person, and how they effect each team.] https://www.youtube.com/watch?v=l62OY19rZ7k
 
@@ -19,7 +19,7 @@
 var version = "NaN";
 
 /***
- * Button Function by Yokuda
+ * Button Function by Fenrier
  * Variables:
  * - overButtonF: To track if the user hovers over the button.
  * - page: To see what page the user is on, and when he/she clicks on a button, they go to a new page.
@@ -217,7 +217,30 @@ draw = function(gameStates, play) {
         popMatrix();
         
         fill(112, 112, 112);
-        ellipse(274, 301, 15, 15);
+        ellipse(302, 301, 15, 15);
+        ellipse(283, 290, 15, 15);
+        ellipse(265, 278, 15, 15);
+        
+        stroke(173, 173, 173);
+        strokeWeight(3);
+        fill(20, 150, 30);
+        rect(256, 240, 80, 25, 10);
+        
+        fill(255, 0, 0);
+        noStroke();
+        ellipse(271, 250, 10, 10);
+        
+        noFill();
+        stroke(0);
+        strokeWeight(2);
+        ellipse(312, 253, 15, 15);
+        rect(312, 246, 0, 15);
+        rect(305, 253, 15, 0);
+        
+        pushMatrix();
+        rect(281, 241, 0, 23);
+        popMatrix();
+
 
     }
     
@@ -405,7 +428,7 @@ draw = function(gameStates, play) {
         text("S", 99, 166);
         text("D", 152, 166);
         
-        text("S", 101, 266);
+        text("G", 98, 268);
         text("P", 300, 266);
         
         text("SHIFT", 304, 113);
